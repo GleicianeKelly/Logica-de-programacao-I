@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+
+<script>
+	
+	function mensagem(msg) {
+		document.write("*********************");
+		document.write("<br>");
+		document.write (msg);
+		document.write("<br>")
+		
+	}
+
+	
+	mensagem("Bem vindo ao meu programa! ");
+	mensagem("Ele realmente funciona");
+	mensagem("Eu usei função para fazer isso!");
+
+
+
+</script>

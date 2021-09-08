@@ -1,0 +1,25 @@
+<meta charset="utf-8"> 
+
+<script> 
+
+var anoNascimento = 2014;
+var anoAtual = 2021; 
+var idadeLaura = anoAtual - anoNascimento;
+document.write ("Laura tem " + idadeLaura + " anos" + "<br>" );
+
+anoNascimento = 1989;
+anoAtual = 2021;
+var idadeGleice = anoAtual - anoNascimento;
+document.write ("Gleice tem " + idadeGleice + " anos" + "<br>");
+
+anoNascimento = 1995;
+anoAtual = 2021;
+var idadeMateus = anoAtual - anoNascimento;
+document.write ("Mateus tem: " + idadeMateus + " anos"  + "<br>");
+
+var media = (idadeLaura  + idadeGleice + idadeMateus)/3;
+
+document.write ("A média das idades é: " + Math.round(media));
+
+</script>
+

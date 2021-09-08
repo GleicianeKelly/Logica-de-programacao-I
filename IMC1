@@ -1,0 +1,42 @@
+<meta charset="utf-8">
+
+<script>
+	
+	function pularLinha() {
+		document.write("<br><br>");
+	}
+
+	function mostra(imc) {
+		document.write(imc);
+		pularLinha();
+	}
+
+
+
+	var altura = 1.65;
+	var peso = 60;
+	var imc = peso/(altura * altura);
+	
+
+	mostra("O imc de Gleiciane é: " + Math.round(imc));
+
+
+	function calculaImc(peso, altura) {
+		var imc = pesoDois/(alturaDois * alturaDois);
+		document.write ("Meu imc é: " + Math.round(imc));	
+	}
+
+	var alturaDois = 1.65;
+	var pesoDois = 60;
+	calculaImc(altura, peso);
+
+
+
+</script>
+
+
+
+
+
+
+

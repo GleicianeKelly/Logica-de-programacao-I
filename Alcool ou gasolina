@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+
+<h3> Álcool ou gasolina? </h3>
+
+<script>
+	
+	var tanque = 40;
+	var caminhoPecorrido = 480;
+	var consumoGasolina = caminhoPecorrido/tanque;
+
+	document.write ("O consumo de gasolina foi de: " + consumoGasolina + "lts por km." + "<br>"); 
+
+	tanque = 40;
+	caminhoPecorrido = 300;
+	var consumoAlcool = caminhoPecorrido / tanque;
+
+	document.write ("O consumo de álcool foi de: " + consumoAlcool + "lts por km." + "<br.");
+
+
+
+
+</script>
+
+

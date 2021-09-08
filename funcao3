@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+
+<script>
+	
+	function pularLinha() {
+		document.write("<br><hr><br>");
+	}
+
+
+	function mostraIdade(geracoes) {
+		document.write(geracoes);
+
+	}
+	var anoAntigo = 1500;
+	var anoAtual = 2021;
+	var generations = anoAtual - anoAntigo;
+	var resultado = generations/28;
+
+	mostraIdade("<big>Se passaram " + Math.round(resultado) + " gerações ao longo dos anos!</big>");
+	pularLinha();
+
+
+
+
+
+
+</script>

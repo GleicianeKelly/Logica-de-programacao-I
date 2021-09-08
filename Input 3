@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+
+
+<input/>
+<button>Advinhe minha idade!! hehe!!</button>
+
+
+
+<script>
+	
+var input = document.querySelector("input");
+var idade = 31;
+input.focus();
+
+function verifica() {
+	if(input.value == idade){
+		alert("Você acertou, parabéns!!");
+	}
+	else{
+		alert("Você errou!!");
+	}
+}
+
+input.focus();
+var button = document.querySelector("button");
+button.onclick = verifica;
+
+
+</script>
+

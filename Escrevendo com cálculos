@@ -1,0 +1,13 @@
+<meta charset="utf-8"> 
+
+
+<script> 
+
+	document.write ("<h1> Porcentagem média das questões! </h1>")
+	document.write ("Quantidade de acertos foi de: " + (40) + "<br>");
+	document.write ("Total de questões: " + (50) + "<br>");
+	document.write ("Média foi de: " + (40/50) * 100 + "%");
+
+
+
+</script>

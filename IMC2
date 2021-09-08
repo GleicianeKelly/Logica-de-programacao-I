@@ -1,0 +1,45 @@
+<meta charset="utf-8">
+
+<script>
+	
+
+	function pularLinha() {
+		document.write("<br><br>");
+	}
+
+
+
+	function calculoImc(peso, altura){
+		var imc = peso/(altura*altura);
+		return imc;
+
+	}
+
+
+
+	var imcGleice = calculoImc(60, 1.67);
+	var imcLaura = calculoImc(20, 1.20);
+	var soma = Math.round(imcGleice) + Math.round(imcLaura);
+
+
+	function mostra(){
+
+	document.write("O imc de Gleice é: " + imcGleice);
+	pularLinha();
+	document.write("O imc de Laura é: " +  imcLaura);
+	pularLinha();
+	document.write("A soma dos imc's é: " + soma);	
+
+	}
+
+	mostra();
+
+
+</script>
+
+
+
+
+
+
+

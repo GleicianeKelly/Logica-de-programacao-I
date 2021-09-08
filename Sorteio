@@ -1,0 +1,44 @@
+<meta charset="utf-8">
+
+<script>
+	
+	function pularLinha() {
+		document.write("<br><br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pularLinha();
+	}
+
+	function sorteia(numero) {
+		var aleatorio = Math.round(Math.random() * numero);
+		return aleatorio;
+	}
+
+	var numeroDigitado = parseInt(prompt("Digite um número: ")); 
+	var sorteio = sorteia(10); 
+
+	if(numeroDigitado < sorteio){
+		mostra("O número digitado foi menor que o sorteado! ")
+	}
+	else{
+		mostra("O número digitado foi maior do que o sorteado!")
+	}
+
+	mostra("O número digitado foi: " + numeroDigitado);
+	mostra("O número sorteado foi: " + sorteio);
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+

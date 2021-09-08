@@ -1,0 +1,12 @@
+<meta charset = "UTF-8">
+
+<script> 
+	document.write ("A média de idades é: " + (10+20+30)/3 + "<br>");
+	document.write("Gleiciane nasceu em: " + (2021 - 32) + "<br>");
+	document.write("Fátima nasceu em: " + (2021 - 57));
+	
+
+</script>
+
+
+
